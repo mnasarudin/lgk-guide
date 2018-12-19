@@ -13,13 +13,37 @@
         ]
       },
       {
+        "title": "Interesting Places",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Place To Stay",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
         "title": "Accomodation",
         "provider": "wordpress",
         "arguments": [
           "https://langkawidirectory.com/wp-json/wp/v2/",
           "5"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title": "Activities",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
       {
         "title": "Activity",
         "provider": "wordpress",
@@ -34,14 +58,6 @@
         "arguments": [
           "https://langkawidirectory.com/wp-json/wp/v2/",
           "3"
-        ]
-      },
-      {
-        "title": "Interesting Places",
-        "provider": "wordpress",
-        "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "4"
         ]
       }
     ]
