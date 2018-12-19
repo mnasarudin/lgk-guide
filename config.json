@@ -1,47 +1,8 @@
 [
   {
-    "title": "Wordpress Blogs",
+    "title": "Travel",
     "drawable": "",
-    "submenu": "",
-    "iap": false,
-    "tabs": [
-      {
-        "title": "Recent",
-        "provider": "wordpress",
-        "arguments": [
-          "en.blog.wordpress.com"
-        ]
-      },
-      {
-        "title": "Themes",
-        "provider": "wordpress",
-        "arguments": [
-          "en.blog.wordpress.com",
-          "themes"
-        ]
-      },
-      {
-        "title": "Security",
-        "provider": "wordpress",
-        "arguments": [
-          "en.blog.wordpress.com",
-          "security"
-        ]
-      },
-      {
-        "title": "Events",
-        "provider": "wordpress",
-        "arguments": [
-          "en.blog.wordpress.com",
-          "events"
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Guide",
-    "drawable": "",
-    "submenu": "",
+    "submenu": "Guide",
     "iap": false,
     "tabs": [
       {
@@ -52,27 +13,35 @@
         ]
       },
       {
-        "title": "Test",
+        "title": "Accomodation",
         "provider": "wordpress",
         "arguments": [
           "https://langkawidirectory.com/wp-json/wp/v2/",
-          "1"
+          "5"
         ]
       },
       {
-        "title": "Security",
+        "title": "Activity",
         "provider": "wordpress",
         "arguments": [
-          "en.blog.wordpress.com",
-          "security"
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "2"
         ]
       },
       {
         "title": "Events",
         "provider": "wordpress",
         "arguments": [
-          "en.blog.wordpress.com",
-          "events"
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "3"
+        ]
+      },
+      {
+        "title": "Interesting Places",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "4"
         ]
       }
     ]
