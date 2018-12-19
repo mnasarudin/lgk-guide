@@ -35,6 +35,13 @@
           "https://langkawidirectory.com/wp-json/wp/v2/",
           "5"
         ]
+      },
+      {
+        "title": "Homestay",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawihomestay.net"
+        ]
       }
     ]
   },
