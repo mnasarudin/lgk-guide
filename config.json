@@ -1,0 +1,261 @@
+[
+  {
+    "title": "Wordpress Blogs",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Recent",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com"
+        ]
+      },
+      {
+        "title": "Themes",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com",
+          "themes"
+        ]
+      },
+      {
+        "title": "Security",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com",
+          "security"
+        ]
+      },
+      {
+        "title": "Events",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com",
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Guide",
+    "drawable": "",
+    "submenu": "",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Recent",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",""
+        ]
+      },
+      {
+        "title": "Test",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "1"
+        ]
+      },
+      {
+        "title": "Security",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com",
+          "security"
+        ]
+      },
+      {
+        "title": "Events",
+        "provider": "wordpress",
+        "arguments": [
+          "en.blog.wordpress.com",
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Home",
+    "drawable": "",
+    "submenu": "Shop",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Shop",
+        "provider": "woocommerce",
+        "arguments": [
+          "home",
+          "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/featured-e1534345513789.png",
+          "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/sale-1.png"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Orders",
+    "drawable": "",
+    "submenu": "WooCommerce",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Orders",
+        "provider": "woocommerce",
+        "arguments": [
+          "orders"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Instagram",
+    "drawable": "",
+    "submenu": "Social Media",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Instagram",
+        "provider": "instagram",
+        "arguments": [
+          "17841402834084629"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Facebook",
+    "drawable": "",
+    "submenu": "Social Media",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Facebook",
+        "provider": "facebook",
+        "arguments": [
+          "307700939773381"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Youtube",
+    "drawable": "",
+    "submenu": "Social Media",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Youtube Live",
+        "provider": "youtube",
+        "arguments": [
+          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "live"
+        ]
+      },
+      {
+        "title": "Playlist",
+        "provider": "youtube",
+        "arguments": [
+          "PL_e2voks8ovujwTqyYJQirfU3oRSj2Ado",
+          "playlist"
+        ]
+      },
+      {
+        "title": "Channel",
+        "provider": "youtube",
+        "arguments": [
+          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "channel"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title": "WebView",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "WebView",
+        "provider": "webview",
+        "arguments": [
+          "http://www.google.com"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Categories",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Categories",
+        "provider": "overview",
+        "arguments": [
+          "overview.json"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wordpress Other",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "WP JSON & Disqus",
+        "provider": "wordpress",
+        "arguments": [
+          "http://androidpolice.com",
+          "",
+          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
+        ]
+      },
+      {
+        "title": "WP REST",
+        "provider": "wordpress",
+        "arguments": [
+          "https://wordpress.org/news/wp-json/wp/v2/",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Location",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "",
+        "provider": "maps",
+        "arguments": [
+          "https://www.mapbox.com/help/data/stations.geojson"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Custom",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "",
+        "provider": "custom",
+        "arguments": [
+          "com.sherdle.universal.SettingsFragment",
+          "fragment"
+        ]
+      }
+    ]
+  }
+]
