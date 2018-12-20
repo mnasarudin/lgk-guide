@@ -9,7 +9,7 @@
         "title": "",
         "provider": "maps",
         "arguments": [
-          "https://www.mapbox.com/help/data/stations.geojson"
+          "https://raw.githubusercontent.com/mnasarudin/lgk-guide/master/stations.geojson"
         ]
       }
     ]
