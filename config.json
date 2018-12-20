@@ -1,220 +1,139 @@
 [
   {
-    "title":"Wordpress Blogs",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
+    "title": "Travel",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
       {
-        "title":"Recent",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com"
+        "title": "Recent",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",""
         ]
       },
       {
-        "title":"Themes",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "themes"
-        ]
-      },
-      {
-        "title":"Security",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "security"
-        ]
-      },
-      {
-        "title":"Events",
-        "provider":"wordpress",
-        "arguments":[
-          "en.blog.wordpress.com",
-          "events"
+        "title": "Interesting Places",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "4"
         ]
       }
     ]
   },
   {
-    "title":"Guide",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
+    "title": "Place To Stay",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
       {
-        "title":"Recent",
-        "provider":"wordpress",
-        "arguments":[
-          "langkawidirectory.com/wp-json/wp/v2/",""
+        "title": "Accomodation",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "5"
         ]
       },
       {
-        "title":"Events",
-        "provider":"wordpress",
-        "arguments":[
-          "langkawidirectory.com/?rest_route=/",
+        "title": "Homestay",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawihomestay.net"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Activities",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Interesting Places",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "2"
+        ]
+      },
+      {
+        "title": "Events",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "3"
+        ]
+      },
+      {
+        "title": "Activities",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "3"
+        ]
+      },
+      {
+        "title": "Trip & Tours",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
           "3"
         ]
       }
     ]
   },
   {
-    "title":"Home",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
+    "title": "Maps",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
       {
-        "title":"Shop",
-        "provider":"woocommerce",
-        "arguments":[
-          "home", "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/featured-e1534345513789.png", "http://newwoo.azurewebsites.net/wp-content/uploads/2018/08/sale-1.png"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Orders",
-    "drawable":"",
-    "submenu":"WooCommerce",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Orders",
-        "provider":"woocommerce",
-        "arguments":[
-          "orders"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Tumblr",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Tumblr",
-        "provider":"tumblr",
-        "arguments":[
-          "androidbackgrounds"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Flickr",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Flickr",
-        "provider":"flickr",
-        "arguments":[
-          "72157657805551378",
-          "photoset"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Streaming Audio",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"SoundCloud",
-        "provider":"soundcloud",
-        "arguments":[
-          "212094702", "playlist"
+        "title": "Maps",
+        "provider": "maps",
+        "arguments": [
+          "https://raw.githubusercontent.com/mnasarudin/lgk-guide/master/stations.geojson"
         ]
       },
       {
-        "title":"Wordpress",
-        "provider":"wordpress_audio",
-        "arguments":[
-          "musicservlet.azurewebsites.net", ""
+        "title": "Search POI",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "3"
         ]
       }
     ]
   },
   {
-    "title":"Twitter",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
+    "title": "Youtube",
+    "drawable": "",
+    "submenu": "Social Media",
+    "iap": false,
+    "tabs": [
       {
-        "title":"Twitter",
-        "provider":"twitter",
-        "arguments":[
-          "Android"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Instagram",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Instagram",
-        "provider":"instagram",
-        "arguments":[
-          "17841402834084629"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Facebook",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Facebook",
-        "provider":"facebook",
-        "arguments":[
-          "307700939773381"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Youtube",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Youtube Live",
-        "provider":"youtube",
-        "arguments":[
+        "title": "Youtube Live",
+        "provider": "youtube",
+        "arguments": [
           "UCoMdktPbSTixAyNGwb-UYkQ",
           "live"
         ]
       },
       {
-        "title":"Youtube Playlist",
-        "provider":"youtube",
-        "arguments":[
+        "title": "Playlist",
+        "provider": "youtube",
+        "arguments": [
           "PL_e2voks8ovujwTqyYJQirfU3oRSj2Ado",
           "playlist"
         ]
       },
       {
-        "title":"Youtube Channel",
-        "provider":"youtube",
-        "arguments":[
+        "title": "Channel",
+        "provider": "youtube",
+        "arguments": [
           "UCoMdktPbSTixAyNGwb-UYkQ",
           "channel"
         ]
@@ -222,101 +141,16 @@
     ]
   },
   {
-    "title":"Pinterest",
-    "drawable":"",
-    "submenu":"Social Media",
-    "iap":false,
-    "tabs":[
+    "title": "Categories",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
       {
-        "title":"Pinterest",
-        "provider":"pinterest",
-        "arguments":[
-          "515451188540423446"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Categories",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Categories",
-        "provider":"overview",
-        "arguments":[
+        "title": "Categories",
+        "provider": "overview",
+        "arguments": [
           "overview.json"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Wordpress Other",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WP JSON & Disqus",
-        "provider":"wordpress",
-        "arguments":[
-          "http://androidpolice.com",
-          "",
-          "http://androidpolice.disqus.com/;androidpolice;%d http://www.androidpolice.com/?p=%d"
-        ]
-      },
-      {
-        "title":"WP REST",
-        "provider":"wordpress",
-        "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Location",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"",
-        "provider":"maps",
-        "arguments":[
-          "https://www.mapbox.com/help/data/stations.geojson"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"Custom",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"",
-        "provider":"custom",
-        "arguments":[
-          "com.sherdle.universal.SettingsFragment", "fragment"
         ]
       }
     ]
