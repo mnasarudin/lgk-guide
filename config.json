@@ -1,5 +1,20 @@
 [
   {
+    "title": "Location",
+    "drawable": "",
+    "submenu": "Maps",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "",
+        "provider": "maps",
+        "arguments": [
+          "https://www.mapbox.com/help/data/stations.geojson"
+        ]
+      }
+    ]
+  },
+  {
     "title": "Travel",
     "drawable": "",
     "submenu": "Guide",
