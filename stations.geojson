@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langkawi International airport",
+        "marker-color": "#000000",
+        "marker-symbol": "airport",
+        "line": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.72920894622803,
+          6.330867348968163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jetty Point",
+        "marker-color": "#0000ff",
+        "marker-symbol": "ferry",
+        "line": "blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.85141038894653,
+          6.30620229727652
+        ]
+      }
+    }
+  ]
+}
