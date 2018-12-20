@@ -204,7 +204,7 @@
         "title": "Categories",
         "provider": "overview",
         "arguments": [
-          "overview.json"
+          "https://raw.githubusercontent.com/mnasarudin/lgk-guide/master/overview.json"
         ]
       }
     ]
