@@ -72,6 +72,43 @@
         ]
       }
     ]
+  },
+  
+  {
+    "title": "Developer",
+    "drawable": "",
+    "submenu": "Other",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "About Us",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/about-us/"
+        ]
+      },
+      {
+        "title": "Contact",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/contact/"
+        ]
+      },
+      {
+        "title": "Privacy",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/privacy-policy/"
+        ]
+      },
+      {
+        "title": "Other Apps",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/other-apps/"
+        ]
+      }
+    ]
   }
   
 ]
