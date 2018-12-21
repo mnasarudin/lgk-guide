@@ -1,28 +1,5 @@
 [
   {
-    "title": "Travel",
-    "drawable": "",
-    "submenu": "Guide",
-    "iap": false,
-    "tabs": [
-      {
-        "title": "Recent",
-        "provider": "wordpress",
-        "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",""
-        ]
-      },
-      {
-        "title": "Interesting Places",
-        "provider": "wordpress",
-        "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "4"
-        ]
-      }
-    ]
-  },
-  {
     "title": "Place To Stay",
     "drawable": "",
     "submenu": "Guide",
@@ -37,10 +14,17 @@
         ]
       },
       {
+        "title": "Hotel",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/accomodation/hotel/"
+        ]
+      },
+      {
         "title": "Homestay",
         "provider": "webview",
         "arguments": [
-          "https://langkawihomestay.net"
+          "https://langkawidirectory.com/category/accomodation/homestay/"
         ]
       }
     ]
@@ -53,40 +37,66 @@
     "tabs": [
       {
         "title": "Interesting Places",
-        "provider": "wordpress",
+        "provider": "webview",
         "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "2"
+          "https://langkawidirectory.com/category/activity/interesting-places/"
         ]
       },
       {
         "title": "Events",
-        "provider": "wordpress",
+        "provider": "webview",
         "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "3"
-        ]
-      },
-      {
-        "title": "Activities",
-        "provider": "wordpress",
-        "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "3"
+          "https://langkawidirectory.com/events/"
         ]
       },
       {
         "title": "Trip & Tours",
-        "provider": "wordpress",
+        "provider": "webview",
         "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "3"
+          "https://langkawidirectory.com/category/activity/tours/"
         ]
       }
     ]
   },
   {
-    "title": "Maps",
+    "title": "Eatery",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Local Food",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/eatery/locals-food/"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Transport"
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Mode of Transport"
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/transport/"
+        ]
+      },
+      {
+        "title": "Rental"
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/transport/rental/"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Quick Maps",
     "drawable": "",
     "submenu": "Guide",
     "iap": false,
@@ -115,14 +125,6 @@
     "iap": false,
     "tabs": [
       {
-        "title": "Youtube Live",
-        "provider": "youtube",
-        "arguments": [
-          "UCoMdktPbSTixAyNGwb-UYkQ",
-          "live"
-        ]
-      },
-      {
         "title": "Playlist",
         "provider": "youtube",
         "arguments": [
@@ -141,16 +143,37 @@
     ]
   },
   {
-    "title": "Categories",
+    "title": "Developer",
     "drawable": "",
     "submenu": "Other",
     "iap": false,
     "tabs": [
       {
-        "title": "Categories",
-        "provider": "overview",
+        "title": "About Us",
+        "provider": "webview",
         "arguments": [
-          "overview.json"
+          "https://langkawidirectory.com/about-us/"
+        ]
+      },
+      {
+        "title": "Contact",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/contact/"
+        ]
+      },
+      {
+        "title": "Privacy",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/privacy-policy/"
+        ]
+      },
+      {
+        "title": "Other Apps",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/other-apps/"
         ]
       }
     ]
