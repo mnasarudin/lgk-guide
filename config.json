@@ -28,5 +28,50 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Activities",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Interesting Places",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/activity/interesting-places/"
+        ]
+      },
+      {
+        "title": "Events",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/events/"
+        ]
+      },
+      {
+        "title": "Trip & Tours",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/activity/tours/"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Eatery",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Local Food",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawidirectory.com/category/eatery/locals-food/"
+        ]
+      }
+    ]
   }
+  
 ]
