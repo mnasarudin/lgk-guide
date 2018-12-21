@@ -73,6 +73,53 @@
       }
     ]
   },
+    {
+    "title": "Quick Maps",
+    "drawable": "",
+    "submenu": "Guide",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Maps",
+        "provider": "maps",
+        "arguments": [
+          "https://raw.githubusercontent.com/mnasarudin/lgk-guide/master/stations.geojson"
+        ]
+      },
+      {
+        "title": "Search POI",
+        "provider": "wordpress",
+        "arguments": [
+          "https://langkawidirectory.com/wp-json/wp/v2/",
+          "3"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Youtube",
+    "drawable": "",
+    "submenu": "Social Media",
+    "iap": false,
+    "tabs": [
+      {
+        "title": "Playlist",
+        "provider": "youtube",
+        "arguments": [
+          "PL_e2voks8ovujwTqyYJQirfU3oRSj2Ado",
+          "playlist"
+        ]
+      },
+      {
+        "title": "Channel",
+        "provider": "youtube",
+        "arguments": [
+          "UCoMdktPbSTixAyNGwb-UYkQ",
+          "channel"
+        ]
+      }
+    ]
+  },
   {
     "title": "Developer",
     "drawable": "",
