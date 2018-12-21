@@ -73,28 +73,7 @@
       }
     ]
   },
-  {
-    "title": "Transport"
-    "drawable": "",
-    "submenu": "Guide",
-    "iap": false,
-    "tabs": [
-      {
-        "title": "Mode of Transport"
-        "provider": "webview",
-        "arguments": [
-          "https://langkawidirectory.com/transport/"
-        ]
-      },
-      {
-        "title": "Rental"
-        "provider": "webview",
-        "arguments": [
-          "https://langkawidirectory.com/category/transport/rental/"
-        ]
-      }
-    ]
-  },
+  
   {
     "title": "Quick Maps",
     "drawable": "",
