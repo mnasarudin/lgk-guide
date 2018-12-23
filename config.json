@@ -6,11 +6,10 @@
     "iap": false,
     "tabs": [
       {
-        "title": "Accomodation",
-        "provider": "wordpress",
+        "title": "Search",
+        "provider": "webview",
         "arguments": [
-          "https://langkawidirectory.com/wp-json/wp/v2/",
-          "5"
+          "https://langkawidirectory.com/search/"
         ]
       },
       {
