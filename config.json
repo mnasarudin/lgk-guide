@@ -25,6 +25,13 @@
         "arguments": [
           "https://langkawidirectory.com/category/accomodation/homestay/"
         ]
+      },
+      {
+        "title": "Test",
+        "provider": "webview",
+        "arguments": [
+          "https://langkawihomestay.net/featured/"
+        ]
       }
     ]
   },
